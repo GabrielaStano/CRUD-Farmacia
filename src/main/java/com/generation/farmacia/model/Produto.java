@@ -4,10 +4,13 @@ import java.time.LocalDateTime;
 
 import org.hibernate.annotations.UpdateTimestamp;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
 import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotBlank;
@@ -49,6 +52,10 @@ public class Produto {
 	@UpdateTimestamp
 	private LocalDateTime data;
 
+	@ManyToOne
+	@JsonIgnoreProperties("produto")
+	private Categoria categoria;
+	
 	public Long getId() {
 		return this.id;
 	}
@@ -95,5 +102,13 @@ public class Produto {
 
 	public void setData(LocalDateTime data) {
 		this.data = data;
+	}
+
+	public Categoria getCategoria() {
+		return categoria;
+	}
+
+	public void setCategoria(Categoria categoria) {
+		this.categoria = categoria;
 	}
 }
