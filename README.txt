@@ -9,7 +9,7 @@ Este repositório contém um projeto desenvolvido como parte do curso da Generat
 
 ## Tecnologias Utilizadas
 
-- **Java**: Linguagem de programação principal utilizada no projeto.
+- ** Java **: Linguagem de programação principal utilizada no projeto.
 - **Spring Boot**: Framework para construção de aplicações Java.
 - **Spring Security**: Para implementação da segurança e autenticação.
 - **JWT (JSON Web Token)**: Para autenticação baseada em tokens.
