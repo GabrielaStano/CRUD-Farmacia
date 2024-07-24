@@ -1,13 +1,13 @@
-# CRUD-Farmacia
+CRUD-Farmacia
 
 Este repositório contém um projeto desenvolvido como parte do curso da Generation Brasil, que implementa um sistema de gerenciamento de farmácias utilizando operações CRUD (Create, Read, Update, Delete) para os recursos Categoria e Produto.
 
-## Funcionalidades
+Funcionalidades
 
 - <b>Categorias</b>: Permite criar, listar, atualizar e deletar categorias de produtos.
 - <b>Produtos</b>: Permite criar, listar, atualizar e deletar produtos, associados às suas respectivas categorias.
 
-## Tecnologias Utilizadas
+Tecnologias Utilizadas
 
 - <b>Java</b>: Linguagem de programação principal utilizada no projeto.
 - <b>Spring Boot</b>: Framework para construção de aplicações Java.
@@ -17,14 +17,14 @@ Este repositório contém um projeto desenvolvido como parte do curso da Generat
 - <b>JUnit</b>: Framework para testes unitários.
 - <b>Swagger</b>: Ferramenta para documentação da API.
 
-## Configuração do Projeto
+Configuração do Projeto
 
-### Pré-requisitos
+Pré-requisitos
 
 - **Java 8** instalado.
 - **PostgreSQL** configurado e rodando.
 
-### Passos para Configuração
+Passos para Configuração
 
 1. Clone o Repositório
 
@@ -72,7 +72,7 @@ Este repositório contém um projeto desenvolvido como parte do curso da Generat
 - PUT /produtos**: Atualiza um produto existente.
 - DELETE /produtos/{id}**: Deleta um produto por ID.
 
-##### Estrutura do projeto
+Estrutura do projeto
 
 CRUD-Farmacia/
 ├── src/
