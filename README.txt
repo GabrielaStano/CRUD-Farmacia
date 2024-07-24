@@ -1,23 +1,23 @@
-CRUD-Farmacia
+# CRUD-Farmacia
 
 Este repositório contém um projeto desenvolvido como parte do curso da Generation Brasil, que implementa um sistema de gerenciamento de farmácias utilizando operações CRUD (Create, Read, Update, Delete) para os recursos Categoria e Produto.
 
-Funcionalidades
+## Funcionalidades
 
-- <b>Categorias</b>: Permite criar, listar, atualizar e deletar categorias de produtos.
-- <b>Produtos</b>: Permite criar, listar, atualizar e deletar produtos, associados às suas respectivas categorias.
+- **Categorias**: Permite criar, listar, atualizar e deletar categorias de produtos.
+- **Produtos**: Permite criar, listar, atualizar e deletar produtos, associados às suas respectivas categorias.
 
-Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
-- <b>Java</b>: Linguagem de programação principal utilizada no projeto.
-- <b>Spring Boot</b>: Framework para construção de aplicações Java.
-- <b>Spring Security</b>: Para implementação da segurança e autenticação.
-- <b>JWT (JSON Web Token)</b>: Para autenticação baseada em tokens.
-- <b>MySQL</b>: Banco de dados utilizado para armazenar informações.
-- <b>JUnit</b>: Framework para testes unitários.
-- <b>Swagger</b>: Ferramenta para documentação da API.
+- **Java**: Linguagem de programação principal utilizada no projeto.
+- **Spring Boot**: Framework para construção de aplicações Java.
+- **Spring Security**: Para implementação da segurança e autenticação.
+- **JWT (JSON Web Token)**: Para autenticação baseada em tokens.
+- **MySQL**: Banco de dados utilizado para armazenar informações.
+- **JUnit**: Framework para testes unitários.
+- **Swagger**: Ferramenta para documentação da API.
 
-Configuração do Projeto
+## Configuração do Projeto
 
 Pré-requisitos
 
@@ -54,25 +54,25 @@ Passos para Configuração
    mvn spring-boot:run
    ```
 
-### Endpoints Principais
+## Endpoints Principais
 
-#### Categoria
+ Categoria
 
-- GET /categorias**: Retorna todas as categorias.
-- GET /categorias/{id}**: Retorna uma categoria específica por ID.
-- POST /categorias**: Cria uma nova categoria.
-- PUT /categorias**: Atualiza uma categoria existente.
-- DELETE /categorias/{id}**: Deleta uma categoria por ID.
+- **GET /categorias**: Retorna todas as categorias.
+- **GET /categorias/{id}**: Retorna uma categoria específica por ID.
+- **POST /categorias**: Cria uma nova categoria.
+- **PUT /categorias**: Atualiza uma categoria existente.
+- **DELETE /categorias/{id}**: Deleta uma categoria por ID.
 
-#### Produto
+ Produto
 
-- GET /produtos**: Retorna todos os produtos.
-- GET /produtos/{id}**: Retorna um produto específico por ID.
-- POST /produtos**: Cria um novo produto.
-- PUT /produtos**: Atualiza um produto existente.
-- DELETE /produtos/{id}**: Deleta um produto por ID.
+- **GET /produtos**: Retorna todos os produtos.
+- **GET /produtos/{id}**: Retorna um produto específico por ID.
+- **POST /produtos**: Cria um novo produto.
+- **PUT /produtos**: Atualiza um produto existente.
+- **DELETE /produtos/{id}**: Deleta um produto por ID.
 
-Estrutura do projeto
+## Estrutura do projeto
 
 CRUD-Farmacia/
 ├── src/
@@ -113,10 +113,6 @@ CRUD-Farmacia/
 Contribuições
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e enviar pull requests.
-
-Licença
-
-Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 Contato
 
